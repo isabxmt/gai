@@ -39,5 +39,37 @@ footer{
     background-color: var(--cartao-frente);
     color: var(--branco);
     text-align: center;
-    
+   height: 100%;
+   transform-style: preserve-3d;
+   transition: transform 300ms ease-in-out;
 }
+
+    .cartao-conteudo h3{
+        position: absolute;
+        color: var(--destaque);
+        border: 1px solid var (destaque);
+        text-align: left;
+        margin: 0.6rem;
+        border-radius: 0.5rem;
+        font-size: 1vw;
+    }
+
+    .cartao-conteudo p{
+        margin-top: 4rem;
+        padding: 2rem;
+        font-size: 1.4vw;
+    }
+
+    .cartao-conteudo p{
+        color: var(--destaque);
+        font-weight: 700;
+    }
+
+    .cartao-pergunta p{
+        color: va(--preto);
+        font-weight: 500;
+    }
+
+    .cartao:hover .cartao-conteudo{
+        transform: rotatey(180deg);
+    }
