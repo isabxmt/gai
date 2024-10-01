@@ -67,7 +67,7 @@ footer{
     }
 
     .cartao-pergunta p{
-        color: va(--preto);
+        color: var(--preto);
         font-weight: 500;
     }
 
@@ -79,7 +79,7 @@ footer{
     .cartao-resposta{
         backface-visibility: hidden;
         position: absolute;
-        heigt: 100%;
+        height: 100%;
         width: 100%;
         box-sizing: border-box;
     }
